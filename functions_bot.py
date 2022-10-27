@@ -11,7 +11,6 @@ def cria_contato(nome, mensagem, data_envio):
 #FUNÇÃO PARA PESQUISAR O CONTATO NA BARRA DE NOMES
 def busca_contato(name):
     x1, y1 = [211,155]
-
     moveTo(x1, y1)
     click()
     typewrite(name, interval=1.2)
