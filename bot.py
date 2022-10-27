@@ -38,44 +38,11 @@ while decisao == str("S").upper():
             limpa_campo()
             print(f"\nMensagem encaminhada para {nome.upper()} às {data_envio} ")
 
-            
-
-       
+                   
         exit()
 
 
 
-    """"
-    contato=cria_contato(nome, msg) #C1 CRIA UM NOVO CONTATO
-    json_object = json.dumps(contato)
-    arch=open('contatos.json','a')
-    arch.write("\n"+str(json_object)+"\n") #salva os dados do contato no arquivo contato.json
-    arch.close()
-
-    historico_mensagem = open('contatos.json','r') #ABERTURA E LEITURA DO ARQUIVO 
-    json_load = json.load(historico_mensagem)
-    print(json_load)
-    print("\n")
-    print(json_load["Contato"])
-    print(json_load["Mensagem"])"""
-        
-        
-        
-        
-
-      
-                            
-                    
-""""
-
-
-time.sleep(1)
-
-busca_contato(nome)
-envia_mensagem(msg)
-
-print(f"\nMensagem encaminhada com sucesso para {nome.upper()} !\n")
-   """
         
 
    
